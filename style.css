@@ -42,6 +42,10 @@ body {
     width: 100px;
 }
 
+.nav-menu-icon {
+    display: none;
+}
+
 .navbar .list {
     list-style-type: none;
     display: flex;
@@ -227,3 +231,174 @@ body {
     font-size: 13px;
     margin-top: 4px;
 }
+
+
+
+/* responsive */
+
+/* navbar */
+
+
+
+@media screen and (max-width: 1230px) {
+
+    nav .list-item {
+        display: none;
+    }
+
+    nav .nav-menu-icon {
+        display: block;
+        margin-right: 20px;
+    }
+
+    nav .nav-menu-icon i {
+        color: white;
+        font-size: 40px;
+        cursor: pointer;
+    }
+
+    nav img {
+        margin-left: 20px;
+    }
+}
+
+
+    /* hero */
+
+    @media only screen and (max-width: 1230px) {
+        .hero .hero-left h1 {
+            font-size: 2.4rem;
+            line-height: 50px;
+            margin-bottom: 20px;
+        }
+
+        .hero .hero-left button {
+            padding: 10px 20px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+
+        .hero .hero-right img {
+            width: 450px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .hero .hero-right {
+            opacity: .2;
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            margin-top: 120px;
+        }
+
+        .hero .hero-left {
+            width: 400px;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .hero .hero-left {
+            padding: 0 20px;
+        }
+    }
+
+    /* third section */
+
+    @media only screen and (max-width: 916px) {
+        .features {
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .features .feature-left img {
+            width: 400px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .features {
+            flex-direction: column;
+            margin-top: 300px;
+        }
+
+        .features .feature-left img {
+            width: 400px;
+        }
+    }
+
+    /* 4th-section */
+    @media only screen and (max-width: 700px) {
+        .customer .customer-cards {
+            flex-wrap: wrap;
+        }
+
+    }
+
+
+
+
+        /* h4 {
+        font-size: 1.5em;
+        width: 300px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h6 {
+        font-size: 1em;
+        width: 200px;
+    }
+
+    p {
+        font-size: 0.7em;
+        width: 200px;
+    }
+
+
+    .feature-right {
+        align-items: center;
+    }
+
+    .customer h2 {
+        font-size: 1.5em;
+    }
+
+    .icon-code {
+        font-size: 1em;
+        padding: 22.5px 20px;
+        border-radius: 50px;
+    }
+
+    .customer h4 {
+        font-size: 1.2em;
+    }
+
+    .customer p {
+        font-size: 0.7em;
+        width: 200px;
+        text-align: center;
+    }
+
+    .customer-cards {
+        width: 250px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    
